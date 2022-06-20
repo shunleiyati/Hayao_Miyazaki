@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  body{
+    background-color: #e9edc9;
+  }
+  nav{
+    font-family: 'Spectral', serif;
+    background: #a3b18a;
+    height: 90px;
+    width: 100%;
+  }
+  nav ul{
+    float: left;
+    margin-right: 20px;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  nav ul li a{
+    color: #fff;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+  nav img{
+    float: right;
+  }
+  a.active,a:hover{
+    background: #fff;
+    transition: .5s;
+    color: #0e3c00;
+  }
+  #srch {
+    width: 250px;
+    height: 25px;
+    font-size: 15px;
+    border-radius: 25px;
+    background-color: #7d8d5f;
+    color: white;
+    border: none;
+    text-align: center;
+    margin-left: 260px;
+  }
+  h1{
+    padding: 20px;
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Nothing You Could Do', cursive;
+    color: #283618;
+  }
+  .anime-card{
+    width: 260px;
+    border-radius: 10px;
+    display: inline-block;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background-color: #fff;
+    margin: 20px;
+    vertical-align: top;
+    line-height: 25px;
+  }
+  .anime-img{
+    width: 100%;
+    height: 365px;
+  }
+  .anime-body{
+    padding: 15px;
+  }
+  .text-center{
+    text-align: center;
+  }
+  .anime-title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 3;
+  }
+  footer{
+    position:-webkit-sticky;
+    bottom: 0;
+    width: 100%;
+    background-color: #a3b18a;
+  }
+  th, td {
+    font-family: 'Tiro Devanagari Sanskrit', serif;
+    font-size: 17px;
+    color: #123524;
+    padding-top: 17px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  marquee{
+    color: #fff;
+    font-family: 'Markazi Text', serif;
+    font-size: 22px;
+  }
+  .snip {
+    position: relative;
+    font-size: 20px;
+    color: #fff;
+    width: 45px;
+    margin: 4px;
+    height: 45px;
+    line-height: 45px;
+    display: inline-block;
+    text-align: center;
+    perspective: 50em;
+    box-sizing: border-box;
+  }
+  .snip:after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: 2px solid #fff;
+    content: '';
+    z-index: -1;
+    border-radius: 50%;
+  }
+  .snip:before,
+  .snip:after {
+    -webkit-transition: all 0.45s ease-in-out;
+    transition: all 0.45s ease-in-out;
+  }
+  .snip:hover,
+  .snip:active,
+  .snip.hover {
+    color: #545a2c;
+    background-color: transparent;
+  }
+  .snip:hover:after,
+  .snip:active:after,
+  .snip.hover:after {
+    border-color: #545a2c transparent #545a2c transparent;
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
